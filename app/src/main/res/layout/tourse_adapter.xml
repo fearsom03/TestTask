@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginTop="10dp">
+
+    <ImageView
+        android:id="@+id/ImageView_row"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:scaleType="fitXY"
+        tools:srcCompat="@drawable/images" />
+
+    <TextView
+        android:id="@+id/Data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ImageView_row"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Впадины Мангистау"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/subData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="30dp"
+
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="87dp"
+        android:layout_marginStart="37dp"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="Проводить закаты тут и там"
+        android:textColor="@android:color/holo_purple"
+        android:textStyle="bold"
+        android:textSize="9dp" />
+
+    <Button
+        android:id="@+id/button_Row"
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="206dp"
+        android:layout_marginEnd="25dp"
+        android:text="Далее"
+        android:textColor="@color/white" />
+
+</RelativeLayout>
